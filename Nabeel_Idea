@@ -1,9 +1,29 @@
-
 MicroService_UserManagment:
 	Login API Behavior:
-		Create/Read Users	
-	Users API Behavior:
-		CRUD Users
+		#CR Users DB
+		# endpoint /medicomatic/login
+		
+	Query_Users API Behavior:
+		#CRUD Users DB
+		# endpoint /medicomatic/users/{userid}/{operation}
 MicroService_Payment:
-
-	
+	New_Payment API Behavior:
+		# CRUD Payment DB
+		# endpoint /medicomatic/
+MicroService_PatientInformation:
+	Prescript API Behavior:
+		#CRUD PreScript DB
+		# endpoint /medicomatic/prescription/{userid}/{operation}/{script}
+	Fillscript API Behavior:
+		#Read User script status
+		# endpoint /medicomatic/prescription/{userid}/fill/{rxnum}/{pharm}
+	Drug_Info API Behavior:
+		# Query DB for drug information
+		# endpoint /medicomatic/prescription/{userid}/
+MicroService_Appointment:
+	Appointment API Behavior:
+		#CRUD Appointment DB
+		# endpoint /medicomatic/Appointment/{userid}/{operation}
+	Conferencing API Behavior:
+		# Secure Conferencing connection to WebEx
+		# endpoint /medicomatic/Appointment/{userid}/{doctorid}/{AppointmentID}
