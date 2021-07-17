@@ -1,0 +1,6 @@
+1. user and doctor profile feature
+2. Health Dashboard 
+3. Symptoms checker
+4. Reminder feature
+5. Blockchain integration - security privacy of patients data storage and transfer
+6. Wearable devices integration (health watches. trackers)
