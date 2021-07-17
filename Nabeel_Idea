@@ -1,0 +1,9 @@
+
+MicroService_UserManagment:
+	Login API Behavior:
+		Create/Read Users	
+	Users API Behavior:
+		CRUD Users
+MicroService_Payment:
+
+	
