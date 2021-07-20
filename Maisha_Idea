@@ -1,9 +1,16 @@
+Microservices:
 
-User Login
-Payments Manager
 Medical Dictionary
+   Patients can use the in-app dictionary to look up the names of their prescription medicines and see which ailement they are for 
 Prescription Management
+   Patients can see all of their current prescriptions, dosages, and the days and times they need to take them. Patients can also see past presriptions.
 Access Prescription
+   Patients can check their current and past prescriptions
 Request Prescription
+   Patients can send a request to their primary physician to fill out a prescription for them
 Request Prescription Refill
+   Patient can request refills of current prescriptions 
+Appointment Scheduler
+   Patient can schedule online appointments with their primary physician
 Secure Video Conferencing with WebEx
+   The WebEx integration will allow patients to videocall their physician through the app
